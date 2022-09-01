@@ -1,0 +1,57 @@
+@import "./reset.css";
+body{
+    font-family: 'Poppins', sans-serif;
+    color: black;
+}
+
+.conteiner{
+max-width: 1230px;
+padding: 0 30px ;
+margin: 0 auto;
+}
+/*Header */
+
+.header{
+    background-color:  #F1F1F1;
+    padding-top: 46px;
+}
+
+.header-nav{
+display: flex;
+justify-content: space-between;
+align-items: flex-end;
+}
+.logo{
+    position: relative;
+    font-weight: 700;
+    font-size: 32px;
+    color: black;
+    padding: 0 12px 3px 0;
+    line-height: 1;
+}
+.logo::after{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    content: "";
+    display: block;
+    width: 8px;
+    height: 8px;
+    background-color: rgb(241, 10, 10);
+    border-radius: 50%;
+}
+
+.nav-list{
+display: flex;
+column-gap:50px ;
+font-weight: 500;
+font-size: 14px;
+}
+.nav-link{
+    color: black;
+
+}
+.nav-link.activ {
+    color: #606060;
+
+}
