@@ -139,11 +139,11 @@ font-weight: 600;
 
 }
 
-.projekt{
+.project{
     text-align: center;
 
 }
-.projekt + .projekt{
+.project + .project{
     margin-top: 90px;
     text-align: center;
 
