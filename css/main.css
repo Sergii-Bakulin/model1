@@ -159,3 +159,68 @@ font-weight: 600;
     color: black;
     text-decoration: underline;
 }
+
+
+
+
+.contact{
+    padding: 90px 0;
+    text-align: center;
+
+}
+
+
+
+.contacts-title{
+    margin-bottom: 40px;
+
+}
+
+
+
+.contacts-content{
+    font-size: 18px;
+    margin-bottom: 40px;
+
+}
+
+.contacts-button{
+    margin-bottom: 80px;
+
+}
+
+.btn{
+    background-color: black;
+    display: inline-block;
+    padding: 7px 22px;
+    border-radius: 30px;
+
+    font-size: 18px;
+    color: white;
+
+    transition: background-color 0.2s ease-in, top 0.2s ease-in ;
+}
+.btn:hover, .btn:focus{
+    background-color: rgb(78, 72, 72);
+
+}
+.btn:active{
+    background-color: black;
+    position: relative;
+    top: 2px;
+}
+
+.contack-social{
+    display: flex;
+    justify-content: center;
+    column-gap: 60px;
+    align-items: center;
+    margin-bottom: 40px;
+
+}
+
+.conntact-footer{
+    color: #828282;
+    font-size: 14px;
+
+}
