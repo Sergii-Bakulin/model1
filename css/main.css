@@ -112,3 +112,50 @@ column-gap: 30px;
 .services-card p{
     line-height: 2;
 }
+
+
+
+.portfolio{
+    background-color: #F1F1F1;
+    padding: 90px 0;
+   
+
+
+}
+
+.portfolio-title{
+    margin-bottom: 70px;
+    text-align: center;
+
+}
+
+.title-1{
+font-size: 34px;
+font-weight: 600;
+}
+
+.projekt-img{
+    margin-bottom: 40px;
+
+}
+
+.projekt{
+    text-align: center;
+
+}
+.projekt + .projekt{
+    margin-top: 90px;
+    text-align: center;
+
+}
+
+.project-title{
+    font-size: 18px;
+    text-align: center;
+
+}
+
+.project-title a{
+    color: black;
+    text-decoration: underline;
+}
