@@ -2,6 +2,7 @@
 body{
     font-family: 'Poppins', sans-serif;
     color: black;
+    font-size: 14px;
 }
 
 .conteiner{
@@ -20,6 +21,8 @@ margin: 0 auto;
 display: flex;
 justify-content: space-between;
 align-items: flex-end;
+
+margin-bottom: 76px;
 }
 .logo{
     position: relative;
@@ -54,4 +57,27 @@ font-size: 14px;
 .nav-link.activ {
     color: #606060;
 
+}
+.header-row{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 30px;
+
+}
+.header-content{
+    max-width: 500xp;
+    margin-top: 124px;
+}
+.header-content p{
+    font-size: 14px;
+    line-height: 2;
+
+}
+.header-img{
+
+}
+.header-heding{
+    font-weight: 700;
+    font-size: 44px;
+    margin-bottom: 20px;
 }
