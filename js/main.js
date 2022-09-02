@@ -3,9 +3,9 @@ const navbtn = document.querySelector('#nav-btn');
 const navbtnimg = document.querySelector('#nav-btn-img');
 
 navbtn.onclick = () => {
-    if (nav.classList.toggle('open')){
-        navbtnimg.src="/img/icons/NAV CLOSE.svg";
-}else{
-    navbtnimg.src="/img/icons/NAV.svg";
-}
+    if (nav.classList.toggle('open')) {
+        navbtnimg.src = "/img/icons/NAV CLOSE.svg";
+    } else {
+        navbtnimg.src = "/img/icons/NAV.svg";
+    }
 }
